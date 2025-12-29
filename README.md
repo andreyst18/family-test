@@ -1,24 +1,21 @@
-# family-test
+# Family Members App (Vue 2)
 
-## Project setup
-```
+Тестовое веб-приложение для управления данными членов семьи.
+
+## Технологии
+- Vue 2
+- Vuex
+- Axios
+- Vue CLI
+
+## Функциональность
+- Добавление / редактирование / удаление членов семьи
+- Валидация формы
+- Проверка уникальности (ФИО + дата рождения)
+- Получение данных о недвижимости (mock API)
+- Таблица с итоговой информацией
+
+## Запуск проекта
+```bash
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
